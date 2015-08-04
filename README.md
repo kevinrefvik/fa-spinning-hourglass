@@ -1,6 +1,9 @@
 # fa-spinning-hourglass
 This little jQuery plugin make the hourglass from Font Awesome come alive. When the hourglass is filled, it spins around and the animations starts over.
 
+## Example
+http://kevinrefvik.github.io/fa-spinning-hourglass/
+
 ## Requirements
 - jQuery
 - Font Awesome min 4.4.0
