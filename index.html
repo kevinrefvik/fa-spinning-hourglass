@@ -1,1 +1,34 @@
-...
+<html>
+	<head>
+		<title>jQuery Font Awesome Spinning Hourglass example</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+		<style>
+			body {margin: 100px 0; font-size: 400%; color: #000; text-align: center;}
+
+			body a {color: #000;}
+			
+			.hourglass-animate {}
+			.hourglass-animate.rotate {
+				-webkit-transition: transform 0.8s; /* Chrome, Safari, Opera */
+				transition: transform 0.8s;
+				-ms-transform: rotate(180deg); /* IE 9 */
+				-webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+				transform: rotate(180deg);
+			}
+		</style>
+	</head>
+
+	<body>
+		<p><i class="fa fa-hourglass-start hourglass-animate"></i></p>
+
+		<p><a href="https://github.com/kevinrefvik/fa-spinning-hourglass"><i class="fa fa-github"></i></a></p>
+
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script src="src/jquery.fa-hourglass.js"></script>
+		
+		<script>
+			$('.hourglass-animate').faHourglass();
+		</script>
+	</body>
+</html>
